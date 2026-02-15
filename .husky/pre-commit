@@ -1,0 +1,5 @@
+echo "🔍 Running lint..."
+bun run lint || exit 1
+
+echo "🏗 Running build..."
+bun run build || exit 1
